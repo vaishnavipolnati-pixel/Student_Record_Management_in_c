@@ -1,0 +1,18 @@
+# Compiled executables
+*.exe
+*.o
+*.obj
+
+# Temporary files
+temp.txt
+*.tmp
+
+# IDE files
+.vs/
+*.vcxproj
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+
