@@ -104,7 +104,7 @@ Password: ********
 
 ### Compile the Program
 ```bash
-gcc wastefellow.c -o student_system.exe
+gcc student.c -o student_system.exe
 ```
 
 ### Run the Program
@@ -227,10 +227,11 @@ The statistics feature provides comprehensive analytics:
 ```
 student-management-system/
 │
-├── wastefellow.c          # Main source code (27 KB)
-├── student_system.exe     # Compiled executable (455 KB)
+├── student.c              # Main source code (846 lines)
+├── student_system.exe     # Compiled executable (auto-generated)
 ├── students.txt           # Student database (auto-created)
 ├── credentials.txt        # User credentials (auto-created)
+├── .gitignore            # Git ignore file
 └── README.md             # This file
 ```
 
@@ -269,9 +270,10 @@ staff staff123 STAFF
 
 ### Code Quality
 - **Compilation**: Zero warnings with `-Wall -Wextra`
-- **Lines of Code**: ~850 lines
+- **Lines of Code**: 846 lines
 - **Functions**: 20+ well-documented functions
 - **Error Handling**: Comprehensive for all operations
+- **File Validation**: Automatic file initialization and validation
 
 ---
 
@@ -305,13 +307,13 @@ admin admin123 ADMIN
 ### Compilation Commands
 ```bash
 # Basic compilation
-gcc wastefellow.c -o student_system.exe
+gcc student.c -o student_system.exe
 
 # With warnings
-gcc wastefellow.c -o student_system.exe -Wall -Wextra
+gcc student.c -o student_system.exe -Wall -Wextra
 
 # Strict mode
-gcc wastefellow.c -o student_system.exe -Wall -Wextra -pedantic
+gcc student.c -o student_system.exe -Wall -Wextra -pedantic
 ```
 
 ### Testing Checklist
@@ -408,10 +410,11 @@ Feel free to use, modify, and learn from the code.
 ## 👨‍💻 Version Information
 
 - **Version**: 2.0 (Production Ready)
-- **Last Updated**: December 6, 2025
+- **Last Updated**: December 2024
 - **Language**: C (C99 Standard)
 - **Platform**: Windows
 - **Status**: Stable ✅
+- **Author**: vaishnavipolnati-pixel
 
 ---
 
@@ -423,10 +426,18 @@ This Student Management System is a comprehensive solution for educational insti
 
 ---
 
+## 👤 Author & Repository
+
+- **GitHub**: [@vaishnavipolnati-pixel](https://github.com/vaishnavipolnati-pixel)
+- **Repository**: [Student_Record_Management_in_c](https://github.com/vaishnavipolnati-pixel/Student_Record_Management_in_c)
+- **Email**: vaishnav_polnati@srmap.edu.in
+
+---
+
 ### Quick Start
 ```bash
 # 1. Compile
-gcc wastefellow.c -o student_system.exe
+gcc student.c -o student_system.exe
 
 # 2. Run
 .\student_system.exe
